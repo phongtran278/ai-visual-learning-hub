@@ -21,3 +21,17 @@ Reviewed: 2026-10-21. "Eligible" means justified as a **learning objective**, no
 
 ## Publication gates
 A lesson can enter a pilot if it has (1) specific observable outcome, (2) primary source or explicit theory-based rationale, (3) task and rubric, (4) limitations/model applicability, (5) reviewer approval. Mark lessons "pilot / provisional" until evaluated with learners.
+
+
+## v0.3 UNESCO-aligned adaptation note (2026-10-21)
+
+The [Competency Framework v0.3](../framework/competency-framework.md) now adopts **Understand → Apply → Create** as a **UNESCO-inspired progression**. The mapping is **conceptual at UNESCO's four-dimension level**, not an audited one-to-one mapping of its 12 individual competencies. Hub-level assessment anchors are provisional and **not UNESCO-defined thresholds**.
+
+| UNESCO dimension | Hub competencies with conceptual relevance | Status |
+|---|---|---|
+| Human-centred mindset | AV-01, AV-06, AV-07, AV-08 | Interpretive adaptation |
+| Ethics of AI | AV-05, AV-08 | Interpretive adaptation |
+| AI techniques and applications | AV-01–AV-08 (varying degrees) | Domain specialization; model-specific support varies |
+| AI system design | AV-06 (workflow-design analogy only) | **Not equivalent** to AI-system engineering |
+
+**Open validation:** full-text item-level UNESCO crosswalk; task reliability; learner pilot; design theory for AV-02/04; production standards for AV-07.
