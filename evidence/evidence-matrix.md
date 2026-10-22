@@ -35,3 +35,8 @@ The [Competency Framework v0.3](../framework/competency-framework.md) now adopts
 | AI system design | AV-06 (workflow-design analogy only) | **Not equivalent** to AI-system engineering |
 
 **Open validation:** full-text item-level UNESCO crosswalk; task reliability; learner pilot; design theory for AV-02/04; production standards for AV-07.
+
+
+## v0.4 — Full 12-block UNESCO mapping (2026-10-22)
+
+See [UNESCO 12-block crosswalk](../framework/unesco-12-competency-crosswalk.md) for original block names, precise conceptual alignment judgments, Hub objectives and observable assessment evidence. **Gaps explicitly recorded:** *Creating AI tools* and *Architecture design*. **Partial only:** *Citizenship in the era of AI*, *Ethics by design*, *AI foundations*, *Problem scoping*, *Iteration and feedback loops*. No claim of UNESCO endorsement or psychometrically validated proficiency.
