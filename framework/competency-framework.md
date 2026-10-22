@@ -82,3 +82,8 @@ Thresholds (such as ≥4, ≥3 and ≥2) are **proposed pilot anchors**, not UNE
 6. Review visual design theory and production standards before promoting AV-07 to core.
 
 See [Source Registry](../research/source-registry.md) and [Evidence Matrix](../evidence/evidence-matrix.md).
+
+
+## v0.4 — Item-level UNESCO crosswalk (2026-10-22)
+
+**Read the [12-block UNESCO crosswalk](unesco-12-competency-crosswalk.md) before claiming alignment.** The original 4 × 3 matrix has now been mapped block by block: 5 direct-principle, 5 partial-adaptation, and 2 gap/not-equivalent judgments (Hub interpretation, not UNESCO ratings). The earlier v0.3 statement that item-level mapping was pending is superseded by this new document. **Full critical appraisal of UNESCO's detailed Tables 2–5 and empirical validation remain pending.** In particular, image generation is **not** UNESCO's *Creating AI tools*, and creative workflows are **not** AI system architecture.
