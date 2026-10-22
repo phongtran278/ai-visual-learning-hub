@@ -27,3 +27,8 @@ For every claim record: exact section/page; publication/update date; access date
 
 ## Corrections
 Earlier v0.1 linked `imagen-prompt-guide` as if current. As of this review it redirects to the retired Imagen documentation. Active Google guidance is `/gemini-api/docs/image-generation`. Do not use retired Imagen instructions as present-day product advice.
+
+
+## SRC-001 primary-text verification update (2026-10-22)
+
+Consulted the [full UNESCO 2024 publication](https://doi.org/10.54675/JKJB9835), especially **Table 1, p.19** (four dimensions × Understand/Apply/Create). Original 12 named blocks and Hub alignment judgments are documented in [the v0.4 crosswalk](../framework/unesco-12-competency-crosswalk.md). The 2024 **final publication** supersedes pre-publication drafts. The document is under CC BY-SA 3.0 IGO, subject to UNESCO's terms and third-party image exceptions. Detailed chapter-by-chapter appraisal of Tables 2–5 remains a follow-up task.
