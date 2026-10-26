@@ -1,31 +1,42 @@
-# AI Visual Learning Hub
+# VISION / LAB
 
-**An evidence-informed learning platform for AI visual creation.**
+**Understand. Apply. Create.** An evidence-informed AI visual learning hub for designers.
 
-A nonprofit-oriented, learning-first initiative helping designers develop the skills to **direct, evaluate, iterate and deliver** AI-assisted visual work. Learners practice using their own AI tools; this repository is not an image-generation service.
+**MVP status (2026-10-26):** interactive web UI committed; **not yet confirmed deployed to a public URL**. Curriculum and assessment are experimental, not UNESCO-approved or certified.
 
-> **Research status: v0.1 / foundational drafts.** This is not an official OpenAI, Google, Anthropic or UNESCO program; it is not an accredited or industry-standard certification. Curriculum and assessment claims are hypotheses until validated.
+## Run the interactive MVP
 
-## Start here
-- [Product vision](docs/product-vision.md)
-- [Research source registry](research/source-registry.md)
-- [Research and validation protocol](research/methodology.md)
-- [Draft competency framework](framework/competency-framework.md)
-- [Draft assessment rubric](framework/assessment-rubrics.md)
+Requires Node.js 22 and npm:
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL shown by Vite (usually `http://localhost:5173`). The interface includes a dashboard, seven-module overview, and M01 *Visual Brief & Creative Direction* in three interactive stages. The other six lessons are curriculum drafts, not yet interactive web modules.
+
+**No AI API or account required.** Drafts and completion are saved to your browser only. Completion is self-reported, not certified assessment.
+
+## Research and curriculum
+- [UNESCO 12-block crosswalk](framework/unesco-12-competency-crosswalk.md)
+- [Framework v0.3](framework/competency-framework.md)
+- [Pilot curriculum](curriculum/pilot-curriculum-v0.1.md)
+- [Rubric](framework/pilot-assessment-rubric-v0.1.md)
 - [Evidence matrix](evidence/evidence-matrix.md)
-- [Provisional learning paths](curriculum/learning-paths.md)
-- [Roadmap](docs/roadmap.md)
-- [Contributing](CONTRIBUTING.md)
+- [Source registry](research/source-registry.md)
+- [Research methodology](research/methodology.md)
+- [Pilot-study protocol](curriculum/pilot-study-protocol-v0.1.md)
 
-## Research principles
-1. **Evidence transparency:** distinguish academic research, official documentation, reproducible experiments and untested hypotheses.
-2. **Version awareness:** document vendor/model applicability and review dates.
-3. **Visual learning:** outcomes, practice, critique and measurable revisions—not prompt collections alone.
-4. **Privacy and access:** no learner passwords, private submissions or paid image-generation infrastructure in this repository.
-5. **Corrections welcome:** document uncertainty and revise claims when evidence changes.
+## Infrastructure
+- Target hostname: **vision.phongtran.tech**
+- Intended stack: static React/Vite build on **VISION-isolated Azure Storage Static Website**, Cloudflare DNS/proxy, GitHub Actions.
+- [Local and preview setup](docs/vision-local-and-preview.md)
+- [Deployment decision and safety gates](docs/deployment-vision.md)
 
-## Current phase
-**Phase 0–1: Research & Curriculum Validation.** The website and product integrations have not been built. Initial source links are candidates for systematic review, not a completed academic bibliography.
+GitHub CI checks the build. Deployment is **manual**, requires VISION-specific Azure credentials and storage account, and does not modify PlotFlow. No Azure/Cloudflare account configuration or live domain has been changed by these commits.
+
+## Principles
+Evidence transparency, version-aware tool guidance, meaningful practice and critique, responsible use and privacy. Users bring their own AI-generation subscriptions.
 
 ## Licensing
-Code and educational-content licenses are **not yet selected**. Do not assume MIT or Creative Commons licensing until an explicit license is added.
+Code and educational-content licenses are not yet selected; do not assume MIT or Creative Commons licensing for repository content.
